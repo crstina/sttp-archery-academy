@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #03a3df;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+}
+footer {
+  padding-top: 1rem;
+  text-align: center;
+}
+nav {
+  font-family: Arial, sans-serif;
+  text-align: right;
+}
+.grid-container div {
+  border: .10rem solid #03a3df;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 1rem 2rem;
+}
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.grid-item-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+.grid-item-3 {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+}
+.bio-section {
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+}
+.bio-box {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-align: center;
+}
