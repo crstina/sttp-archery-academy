@@ -8,6 +8,8 @@ header {
   background-color: #03a3df;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 h3 {
   font-family: Arial, sans-serif;
